@@ -1,7 +1,6 @@
 package com.lidiwen.utils;
 
-import com.bnuz.bbkt.commons.result.SystemConstant;
-import com.bnuz.bbkt.service.config.RedisService;
+
 import net.sf.json.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -26,8 +25,8 @@ public class Utils {
 
     public static final Long ONE_MINUTE_SECOND = 1L * 60;
 
-    @Autowired
-    RedisService redisService;
+//    @Autowired
+//    RedisService redisService;
 
     public static String getUUID32() {
         String uuid = UUID.randomUUID().toString().replace("-", "").toLowerCase();
@@ -151,7 +150,8 @@ public class Utils {
 
     public String getTempToken(String uuid) {
         //基于uuid创建token
-        String token = JwtUtils.createJWT("wechat", uuid, SystemConstant.JWT_TTL_LONG);
+//        String token = JwtUtils.createJWT("wechat", uuid, SystemConstant.JWT_TTL_LONG);
+        String token="";
         return token;
     }
 

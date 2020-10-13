@@ -35,7 +35,7 @@
         <jjwt.version>0.7.0</jjwt.version>
         <spring.starter.test.version>1.5.1.RELEASE</spring.starter.test.version>
         <spring.test.version>4.3.6.RELEASE</spring.test.version>
-        <junit.version>4.12</junit.version>
+        <junit.version>4.13.1</junit.version>
         <nekohtml.version>1.9.22</nekohtml.version>
         <poi.version>4.0.0</poi.version>
         <druid.version>1.1.2</druid.version>
